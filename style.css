@@ -1,0 +1,83 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #424242;
+}
+h2 {
+  color: #fff;
+}
+
+.head-containter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100%;
+  height: 347px;
+  background-image: url("assets/bg.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.head-containter h1 {
+  color: #ffd600;
+  font-size: 64px;
+  line-height: 68.61px;
+  letter-spacing: 15%;
+  text-transform: uppercase;
+  font-family: "Ropa Sans";
+  margin-top: 0;
+  padding-left: 10px;
+}
+
+.fetch-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.character-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 2rem 10rem;
+  background-color: #8e8e8e;
+  border: 2px solid #ffd600;
+  border-radius: 8px;
+}
+
+.character-name {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  color: #ffd600;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.character-name:hover {
+  background-color: #ffd600;
+  color: #fff;
+}
+
+.fetch-info {
+  width: 600px;
+  padding: 20px;
+  border: 2px solid #ffd600;
+  border-radius: 8px;
+  background-color: #8e8e8e;
+  margin-left: 20px;
+}
+
+.fetch-info h2 {
+  color: #ffd600;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.fetch-info p {
+  margin: 10px 0;
+  color: #fff;
+}
