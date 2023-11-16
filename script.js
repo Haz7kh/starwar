@@ -15,11 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
         .querySelectorAll(".character-name")
         .forEach((nameElement, index) => {
           nameElement.addEventListener("click", function () {
-            // Fetch details of the selected character
+            //  details
             fetch(data.results[index].url)
               .then((response) => response.json())
               .then((characterData) => {
-                //  details
                 fetchInfoElement.innerHTML = `
             <h2>Details</h2
             <h2>${characterData.name}</h2>
